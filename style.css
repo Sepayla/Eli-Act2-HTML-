@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    font-family: Tahoma;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+
+.container{
+    position: relative;
+    margin: 50px;
+    background: white;
+    width: 2000px;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    opacity: 0.6;
+}
+
+.header{
+    padding-left: 30px;
+}
+
+.header ul{
+    display: flex;
+    float: right;
+    color: black;
+    position: relative;
+}
